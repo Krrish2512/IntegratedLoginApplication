@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_16"
+    tools:context=".Developers">
+
+    <ImageView
+        android:id="@+id/Abhiman"
+        android:layout_width="112dp"
+        android:layout_height="102dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/a" />
+
+    <ImageView
+        android:layout_width="112dp"
+        android:layout_height="102dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="90dp"
+        android:src="@drawable/b"
+        android:layout_below="@id/Abhiman"
+        android:id="@+id/Aradhya"/>
+
+    <ImageView
+        android:id="@+id/Divyansh"
+        android:layout_width="112dp"
+        android:layout_height="102dp"
+        android:layout_below="@id/Aradhya"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/c"/>
+
+    <ImageView
+        android:id="@+id/Ishan"
+        android:layout_width="112dp"
+        android:layout_height="102dp"
+        android:layout_alignRight="@id/Abhiman"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="77dp"
+        android:layout_marginRight="-132dp"
+        android:layout_marginBottom="555dp"
+        android:src="@drawable/d" />
+
+    <ImageView
+        android:id="@+id/Kritika"
+        android:layout_width="112dp"
+        android:layout_height="102dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="218dp"
+        android:layout_marginTop="303dp"
+        android:layout_marginEnd="81dp"
+        android:src="@drawable/e" />
+
+    <ImageView
+        android:id="@+id/Krrish"
+        android:layout_width="121dp"
+        android:layout_height="103dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="212dp"
+        android:layout_marginTop="453dp"
+        android:layout_marginEnd="78dp"
+        android:src="@drawable/g" />
+
+</RelativeLayout>
+
+
+
+
+
+
